@@ -1,0 +1,62 @@
+.xo{
+    width: 240px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin: auto;
+}
+.title{
+    background-color: rgb(4, 91, 97);
+    border: 1px solid black;
+    color: #000;
+}
+#item1 , #item2 , #item3 , #item4 , #item5 , #item6 , #item7 , #item8 , #item9{
+    background-color: rgb(4, 91, 97);
+    width: 70px;
+    height: 70px;
+    border:1px solid rgb(255, 255, 255) ;
+    margin: 5px;  
+    font-size: 40px;
+    color: rgb(255, 255, 255);  
+}
+#item1:hover , #item2:hover , #item3:hover , #item4:hover , #item5:hover , #item6:hover , #item7:hover , #item8:hover , #item9:hover{
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(189, 184, 155);
+    color: white;
+}
+.stock1 , .stock2 , .stock3{
+    display: flex;
+}
+body{
+    background-color: rgb(0, 0, 0);
+    font-family: "Permanent Marker", cursive;  
+}
+#dawn{
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 5px;
+    position: relative;
+    left: 46%;
+    top: 20px;
+}
+img{
+    width: 40px;
+    position: relative;
+    top: 60px;
+    padding-bottom: 20px;
+}
+#v1 , #v2{
+    color: white;
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+button{
+    position: relative;
+    top: 50px;
+    border-radius: 30px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
